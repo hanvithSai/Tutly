@@ -1,5 +1,5 @@
 import type { Role } from "@prisma/client";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import { z } from "zod";
 
 import { generateRandomPassword } from "@tutly/auth";

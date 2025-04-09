@@ -1,6 +1,6 @@
 import type { Course, User } from "@prisma/client";
 import { PrismaClient } from "@prisma/client";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 
 import { courses, organization, users } from "./data/users";
 
